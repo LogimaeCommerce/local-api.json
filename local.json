@@ -142,20 +142,20 @@
         "user": "logimapwa",
         "pass": "logimapwa.io"
       },
-      "targetAddressWhitelist": ["support@logima.io"],
+      "targetAddressWhitelist": ["support@domain"],
       "secretString": "__THIS_IS_SO_SECRET__"
     }
   },
   "magento2": {
-    "url": "https://pay.logima.io/",
-    "imgUrl": "https://pay.logima.io/media/catalog/product",
+    "url": "https://cmsdomain.io/",
+    "imgUrl": "https://cmsdomain.io/media/catalog/product",
     "assetPath": "/../var/magento2-sample-data/pub/media",
     "magentoUserName": "",
     "magentoUserPassword": "",
     "httpUserName": "",
     "httpUserPassword": "",
     "api": {
-      "url": "https://pay.logima.io/rest",
+      "url": "https://cmsdomain.io/rest",
       "consumerKey": "key",
       "consumerSecret": "consumerSecret",
       "accessToken": "accessToken",
