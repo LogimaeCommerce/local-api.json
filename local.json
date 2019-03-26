@@ -5,7 +5,7 @@
     "searchEngine": "elasticsearch"
   },
   "orders": {
-    "useServerQueue": false
+    "useServerQueue": true
   },
   "catalog": {
     "excludeDisabledProducts": false
@@ -55,7 +55,7 @@
       "name": "German Store",
       "url": "/de",
       "elasticsearch": {
-        "host": "localhost:8080/api/catalog",
+        "host": "https://storedomain.io/api/catalog",
         "index": "vue_storefront_catalog_de"
       },
       "tax": {
@@ -82,7 +82,7 @@
       "name": "Italian Store",
       "url": "/it",
       "elasticsearch": {
-        "host": "localhost:8080/api/catalog",
+        "host": "https://storedomain.io/api/catalog",
         "index": "vue_storefront_catalog_it"
       },
       "tax": {
@@ -109,7 +109,7 @@
     "setConfigurableProductOptions": false
   },
   "tax": {
-    "defaultCountry": "PL",
+    "defaultCountry": “US”,
     "defaultRegion": "",
     "calculateServerSide": true,
     "alwaysSyncPlatformPricesOver": false,
@@ -139,10 +139,10 @@
         "host": "smtp.gmail.com",
         "port": 465,
         "secure": true,
-        "user": "storedomain.io",
-        "pass": "storedomain.io"
+        "user": “storedomain.io”,
+        "pass": “cmsdomain.io”
       },
-      "targetAddressWhitelist": ["support@domain"],
+      "targetAddressWhitelist": [“support@storedomain.io”],
       "secretString": "__THIS_IS_SO_SECRET__"
     }
   },
@@ -156,25 +156,10 @@
     "httpUserPassword": "",
     "api": {
       "url": "https://cmsdomain.io/rest",
-      "consumerKey": "key",
-      "consumerSecret": "consumerSecret",
-      "accessToken": "accessToken",
-      "accessTokenSecret": "accessTokenSecret"
-    }
-  },
-  "magento1": {
-    "url": "http://cmsdomain.io",
-    "imgUrl": "http://cmsdomain.io/media/catalog/product",
-    "magentoUserName": "",
-    "magentoUserPassword": "",
-    "httpUserName": "",
-    "httpUserPassword": "",
-    "api": {
-      "url": "http://cmsdomain.io/vsbridge",
-      "consumerKey": "",
-      "consumerSecret": "",
-      "accessToken": "",
-      "accessTokenSecret": ""
+      "consumerKey": "byv3730rhoulpopcq64don8ukb8lf2gq",
+      "consumerSecret": "u9q4fcobv7vfx9td80oupa6uhexc27rb",
+      "accessToken": "040xx3qy7s0j28o3q0exrfop579cy20m",
+      "accessTokenSecret": "7qunl3p505rubmr7u1ijt7odyialnih9"
     }
   },
   "imageable": {
@@ -183,8 +168,8 @@
     "imageSizeLimit": 1024,
     "whitelist": {
       "allowedHosts": [
-        ".*cmsdomain.io",
-        ".*domain.io"
+        “.*cmsdomain.io”,
+        “.*storedomain.io”
       ]
     },
     "cache": {
