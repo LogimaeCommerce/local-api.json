@@ -139,8 +139,8 @@
         "host": "smtp.gmail.com",
         "port": 465,
         "secure": true,
-        "user": "domain.io",
-        "pass": "domain.io"
+        "user": "storedomain.io",
+        "pass": "storedomain.io"
       },
       "targetAddressWhitelist": ["support@domain"],
       "secretString": "__THIS_IS_SO_SECRET__"
