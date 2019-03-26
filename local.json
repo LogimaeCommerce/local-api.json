@@ -163,14 +163,14 @@
     }
   },
   "magento1": {
-    "url": "http://magento-demo.local",
-    "imgUrl": "http://magento-demo.local/media/catalog/product",
+    "url": "http://cmsdomain.io",
+    "imgUrl": "http://cmsdomain.io/media/catalog/product",
     "magentoUserName": "",
     "magentoUserPassword": "",
     "httpUserName": "",
     "httpUserPassword": "",
     "api": {
-      "url": "http://magento-demo.local/vsbridge",
+      "url": "http://cmsdomain.io/vsbridge",
       "consumerKey": "",
       "consumerSecret": "",
       "accessToken": "",
@@ -183,7 +183,7 @@
     "imageSizeLimit": 1024,
     "whitelist": {
       "allowedHosts": [
-        ".*divante.pl",
+        ".*cmsdomain.io",
         ".*domain.io"
       ]
     },
