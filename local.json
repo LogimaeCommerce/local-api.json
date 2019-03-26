@@ -18,9 +18,9 @@
     "password": "changeme",
     "min_score": 0.01,
     "indices": [
-      "logima_pwa_catalog",
-      "logima_pwa_catalog_de",
-      "logima_pwa_catalog_it"
+      "vue_storefront_catalog",
+      "vue_storefront_catalog_de",
+      "vue_storefront_catalog_it"
     ],
     "indexTypes": [
       "product",
@@ -56,7 +56,7 @@
       "url": "/de",
       "elasticsearch": {
         "host": "localhost:8080/api/catalog",
-        "index": "logima_pwa_catalog_de"
+        "index": "vue_storefront_catalog_de"
       },
       "tax": {
         "defaultCountry": "DE",
@@ -83,7 +83,7 @@
       "url": "/it",
       "elasticsearch": {
         "host": "localhost:8080/api/catalog",
-        "index": "logima_pwa_catalog_it"
+        "index": "vue_storefront_catalog_it"
       },
       "tax": {
         "defaultCountry": "IT",
@@ -139,8 +139,8 @@
         "host": "smtp.gmail.com",
         "port": 465,
         "secure": true,
-        "user": "logimapwa",
-        "pass": "logimapwa.io"
+        "user": "domain.io",
+        "pass": "domain.io"
       },
       "targetAddressWhitelist": ["support@domain"],
       "secretString": "__THIS_IS_SO_SECRET__"
@@ -184,7 +184,7 @@
     "whitelist": {
       "allowedHosts": [
         ".*divante.pl",
-        ".*logimapwa.io"
+        ".*domain.io"
       ]
     },
     "cache": {
